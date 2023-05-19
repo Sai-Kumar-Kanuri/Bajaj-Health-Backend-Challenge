@@ -28,8 +28,9 @@ app.post('/bfhl',(req,res)=>{
         }
         res.status(200).json({
             is_success:true,
-            user_id:"john_doe_17091999",
-            email:"john@xyz.com",
+            user_id:"Kanuri_S_V_S_Sai_Kumar_12092001",
+            email:"kv8700@srmist.edu.in",
+            roll_number:"RA2011003010303",
             num:numArr,
             alphabets:charArr,
         })
