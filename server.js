@@ -5,7 +5,7 @@ const app = express();
 
 app.use(express.json())
 
-app.post('/',(req,res)=>{
+app.post('/bfhl',(req,res)=>{
     try{
 
         const Info = req.body.data
